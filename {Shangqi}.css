@@ -2,61 +2,49 @@ body{
     background-color: black;
 }
 .Title{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color:rgb(1, 41, 41); 
+  background-color:rgb(1, 29, 29); 
+  color:black;
+  padding: 20px 50px;
   display: flex;
   flex-direction: row;
   text-align: center;
   justify-content: space-between; 
 }
 .Title a:hover {
-
+    padding-right: 20px;
     background-color:white;
     color: black;
   }
 .TitleLeft{
-  display: flex;
-  flex-flow: row ;
+  display: block;
   color: #f2f2f2;
-  justify-content: space-around;
-  padding-left: 100px;
+  text-align: center;
+  padding: 10px 2px;
+  justify-content: space-between;
 
 }
 .TitleRight{
-  padding-right: 80px;
-  display: flex;
-  flex-direction: row;
-  color: #f2f2f2;
-  justify-content:space-between;
-
-}
-.Title a {
-    text-decoration: none;
     display: block;
-    padding-right: 1em;
-    color: white;
-
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 150px;
+  justify-content:space-between;
 
 }
 .Help{
     color: blanchedalmond;
     display: flex;
-    flex-direction: row ;
+    flex-direction: row;
     padding:10px 100px;
     justify-content:space-between;
 }
-.Help :hover {
-
-    background-color:white;
-    color: black;
-  }
 #poster{
     height: 400px;
-    padding-right: 40px;
 }
 img{
     height: 150px;
+    float: left;
+    padding-right: 20px;
 }
 h1{
     color: blanchedalmond;
@@ -78,37 +66,31 @@ h4{
 }
 .Content{
     background-image: url("Background.jpg");
-    background-size:cover;
+    background-size: 2000px;
+    display: block;
     padding: 10px 100px;
     color: floralwhite;
-    display: flex;
 }
 .Stuff{
-    display: flex;
-    flex-direction: row;
+    display: block;
+    color: black;
 }
 .Column{
     padding-right: 30px;
+    float: left;
     justify-content:space-between;
 
 }
 .Actor{
     padding-left: 100px;
     padding-top: 20px;
-    display: flex;
-    flex-direction: row;
-}
-.Table{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
 }
 .Image{
     padding-right: 50px;
+    display: block;
+    float: left;
     border-radius: 10px;
-    box-shadow: 8px 10px 19px 1px rgba(0,0,0,0.59);
+  box-shadow: 8px 10px 19px 1px rgba(0,0,0,0.59);
 }
-
-
 
 
